@@ -1,0 +1,137 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background: url(/scene.jpg) no-repeat ;
+    padding: 0 20px;
+    background-size: cover;
+}
+
+/* Header styling */
+header {
+    background: url('https://example.com/header-background.jpg') no-repeat center center/cover;
+    color: #ffffff ;  /* Camera website through out the page*/
+    text-align: center;
+    padding: 60px 200 px;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.33);
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header nav ul li a:hover {
+    color: #fffb00; /* hover to change colorS */ 
+}
+
+/* Main content styling */
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.384);
+    border-radius: 0px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #ffffff; /* text inside the black box middle home */
+}
+
+/* Category links styling */
+section#about nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#about nav ul li a:hover {
+    color: #ff0000;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.33); /*for the bg color box in contact*/
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(83, 106, 12, 0.415);
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+}   
+
+form input:focus, form textarea:focus {
+    border-color: #ffffff;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #0000005e;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #aacc3c;
+}
+
+/* Footer styling */
+footer {
+    background: rgba(0, 0, 0, 0.33);
+    color: #ffffff;
+    text-align: center;
+    border: 2px groove rgba(0, 0, 0, 0.33);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
